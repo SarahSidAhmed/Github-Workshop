@@ -1,0 +1,55 @@
+T1.1: 
+Low DL:	      h1- 120 Mbps
+	      h2- 121 Mbps   Loss: 0,78%
+Lower than the target 125M
+
+
+
+Medium DL:    h1- 654 Mbps   Loss: 0.17%
+	      h2- 655 Mbps
+Close to the 625M target
+
+High DL:      h1- 2.62 GBytes
+	      h2- 2.68 GBytes   Loss: 2.2%
+Higher than the 2.5G target
+
+
+T1.2:
+Low DL:       h1- 57.5 Mbps
+	      h2- 57.6 Mbps    Loss: 0%
+The client was limited to 125M so even though the server had 1G, it was still low traffic
+Not reaching the target
+
+Medium DL:    h1- 139 Mbps
+	      h2- 139 Mbps    Loss: 0%
+2 out of order datagrams
+Lower than the target 625M
+
+High DL:      h1- 156 Mbps
+	      h2- 156 Mbps    Loss: 0%   
+1 out order datagram
+Major bottleneck in the network
+Too low from the target
+
+
+
+
+
+
+-=================================
+T1.1: 
+Low DL:	      h1- 47.7 Mbps
+	      h2- 48.3 Mbps   Loss: 0%
+Lower than the target 125M
+
+Medium DL:    h1- 612 Mbps   Loss: 0.41%
+	      h2- 610 Mbps
+Close to the 625M target
+
+High DL:      h1- 2.45 GBytes
+	      h2- 2.39 GBytes   Loss: 2.4%
+Higher than the 2.5G target
+
+  
+
+h1 tc qdisc add dev h2-eth0 root tbf rate 625Mbit burst 6250k latency 10ms

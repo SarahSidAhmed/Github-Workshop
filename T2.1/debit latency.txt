@@ -1,0 +1,20 @@
+T2.1:
+
+LOW: 1370.48 Mbit/s
+MED: 2499.07 Mbit/s
+HIGH: 2484.55 Mbits/s
+
+
+T2.2:
+
+
+LOW: 1638.89Mbits/s
+MED: 1632.41 Mbits/s
+HIGH: 1651.15Mbits/s
+
+
+T2.3:
+
+
+
+
