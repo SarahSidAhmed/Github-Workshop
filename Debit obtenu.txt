@@ -49,7 +49,3 @@ Close to the 625M target
 High DL:      h1- 2.45 GBytes
 	      h2- 2.39 GBytes   Loss: 2.4%
 Higher than the 2.5G target
-
-  
-
-h1 tc qdisc add dev h2-eth0 root tbf rate 625Mbit burst 6250k latency 10ms
